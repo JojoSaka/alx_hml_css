@@ -1,35 +1,17 @@
 body {
     display: flex;
-}
-
-main {
-    display: flex;
-}
-
-body {
     flex-direction: column;
 }
-
-main {
+ main {
+    display: flex;
     flex-direction: row;
-}
-
-main {
     flex: auto;
-}
-
-article {
+ }
+ article {
     flex: 2;
-}
-
-aside {
-    flex : 1;
-}
-
-article {
     overflow-y: auto;
-}
-
+ }
 aside {
+    flex: 1;
     overflow-y: auto;
 }
